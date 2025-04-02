@@ -1,1 +1,1 @@
-https://github.com/elusive-user/slozhno-sosredotochitsya-fd
+https://github.com/elusive-user/slozhno-sosredotochitsya-fda
