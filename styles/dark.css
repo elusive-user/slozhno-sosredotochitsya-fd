@@ -1,17 +1,29 @@
 :root.theme-dark {
 	--page-img-bg: url('../images/cover-image-dark.png');
-	--primary-color: #f1b2ce;
-	--secondary-color: #ff0070;
-	--accent-color: #db00ff;
-	--third-color: #000028;
+	--border-btn-hover: #ff007066;
+	--text-color: #f1b2ce;
+	--decor-color: #ff0070;
+	--title-color: #db00ff;
+	--accent-text-color: #000028;
+	--menu-btn-color: var(--decor-color);
+	--accent-color: var(--decor-color);
+	--footer-shadow-color: var(--decor-color);
+	--text-shadow-link-color: var(--decor-color);
+	--corners-color: var(--decor-color);
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--page-img-bg: url('../images/cover-image-dark.png');
-		--primary-color: #f1b2ce;
-		--secondary-color: #ff0070;
-		--accent-color: #db00ff;
-		--third-color: #000028;
+		--border-btn-hover: #ff007066;
+		--text-color: #f1b2ce;
+		--decor-color: #ff0070;
+		--title-color: #db00ff;
+		--accent-text-color: #000028;
+		--menu-btn-color: var(--decor-color);
+		--accent-color: var(--decor-color);
+		--footer-shadow-color: var(--decor-color);
+		--text-shadow-link-color: var(--decor-color);
+		--corners-color: var(--decor-color);
 	}
 }
