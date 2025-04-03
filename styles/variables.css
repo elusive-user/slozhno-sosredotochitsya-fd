@@ -1,7 +1,6 @@
 :root {
-	--page-img-bg: url('../images/cover-image-dark.png');
-	--primary-color: #f1b2ce;
-	--secondary-color: #ff0070;
-	--accent-color: #db00ff;
-  --page-bg-color: #000028;
+	--main-font-family: 'IBM Plex mono';
+	--default-font-weight: 400;
+	--default-font-size: 1.125rem;
+	--default-line-height: 130%;
 }

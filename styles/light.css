@@ -3,7 +3,7 @@
 	--primary-color: #353430;
 	--secondary-color: #ff8dcb;
 	--accent-color: #ffc2e6;
-	--page-bg-color: #fff1f7;
+	--third-color: #fff1f7;
 }
 
 @media (prefers-color-scheme: light) {
@@ -12,6 +12,7 @@
 		--primary-color: #353430;
 		--secondary-color: #ff8dcb;
 		--accent-color: #ffc2e6;
+		--third-color: #fff1f7;
 	}
 }
 
@@ -21,25 +22,20 @@
 		color: var(--primary-color);
 	}
 
-	.header__theme-menu-button:hover,
-	.header__theme-menu-button_active {
-		border-color: var(--primary-color);
-	}
-	.header__theme-menu-button:focus-visible {
-		border-bottom-color: var(--primary-color);
+	.header__theme-menu-button:hover {
+		border-color: #32312d66;
 	}
 
+	.decorated-zone::after,
 	.decorated-zone::before {
-		border-top: 1px solid var(--primary-color);
-		border-right: 1px solid var(--primary-color);
-	}
-
-	.decorated-zone::after {
-		border-bottom: 1px solid var(--primary-color);
-		border-left: 1px solid var(--primary-color);
+		color: var(--primary-color);
 	}
 
 	.header__rec {
 		display: none;
+	}
+
+	.text-accent {
+		color: var(--primary-color);
 	}
 }
